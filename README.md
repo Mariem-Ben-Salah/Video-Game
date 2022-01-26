@@ -3,7 +3,7 @@
 <p align="center">
 
   <h1 align="center">Game of life</h3>
-  <img align ="center" src="https://i.ibb.co/dQLtq1z/Sans-titre.png">
+  <img src="https://i.ibb.co/dQLtq1z/Sans-titre.png">
   
   <p align="center">
     <br />
