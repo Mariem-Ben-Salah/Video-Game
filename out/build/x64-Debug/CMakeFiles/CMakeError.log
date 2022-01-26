@@ -1,0 +1,113 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2fddc && [1/2] Building C object CMakeFiles\cmTC_2fddc.dir\HAVE_UNISTD_H.c.obj
+FAILED: CMakeFiles/cmTC_2fddc.dir/HAVE_UNISTD_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_2fddc.dir\HAVE_UNISTD_H.c.obj /FdCMakeFiles\cmTC_2fddc.dir\ /FS -c C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'unistd.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dca35 && [1/2] Building C object CMakeFiles\cmTC_dca35.dir\HAVE_SYS_TIME_H.c.obj
+FAILED: CMakeFiles/cmTC_dca35.dir/HAVE_SYS_TIME_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_dca35.dir\HAVE_SYS_TIME_H.c.obj /FdCMakeFiles\cmTC_dca35.dir\ /FS -c C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'sys/time.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7a510 && [1/2] Building C object CMakeFiles\cmTC_7a510.dir\HAVE_SYS_PARAM_H.c.obj
+FAILED: CMakeFiles/cmTC_7a510.dir/HAVE_SYS_PARAM_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_7a510.dir\HAVE_SYS_PARAM_H.c.obj /FdCMakeFiles\cmTC_7a510.dir\ /FS -c C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c
+C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'sys/param.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_1d836 && [1/2] Building C object CMakeFiles\cmTC_1d836.dir\HAVE_SYS_IOCTL_H.c.obj
+FAILED: CMakeFiles/cmTC_1d836.dir/HAVE_SYS_IOCTL_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_1d836.dir\HAVE_SYS_IOCTL_H.c.obj /FdCMakeFiles\cmTC_1d836.dir\ /FS -c C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'sys/ioctl.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cb386 && [1/2] Building C object CMakeFiles\cmTC_cb386.dir\HAVE_USBHID_H.c.obj
+FAILED: CMakeFiles/cmTC_cb386.dir/HAVE_USBHID_H.c.obj 
+C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_cb386.dir\HAVE_USBHID_H.c.obj /FdCMakeFiles\cmTC_cb386.dir\ /FS -c C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c
+C:\Users\silia\Documents\projet_tsi\out\build\x64-Debug\CMakeFiles\CheckIncludeFiles\HAVE_USBHID_H.c(2): fatal error C1083: Impossible d'ouvrir le fichier include : 'usbhid.h' : No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c643d && [1/2] Building C object CMakeFiles\cmTC_c643d.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_c643d.exe
+FAILED: cmTC_c643d.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_c643d.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_c643d.dir\CheckFunctionExists.c.obj  /out:cmTC_c643d.exe /implib:cmTC_c643d.lib /pdb:cmTC_c643d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_c643d.dir\CheckFunctionExists.c.obj /out:cmTC_c643d.exe /implib:cmTC_c643d.lib /pdb:cmTC_c643d.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_c643d.dir/intermediate.manifest CMakeFiles\cmTC_c643d.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: symbole externe non résolu gettimeofday référencé dans la fonction main
+cmTC_c643d.exe : fatal error LNK1120: 1 externes non résolus
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_7bfc1 && [1/2] Building C object CMakeFiles\cmTC_7bfc1.dir\CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_7bfc1.exe
+FAILED: cmTC_7bfc1.exe 
+cmd.exe /C "cd . && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7bfc1.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7bfc1.dir\CheckFunctionExists.c.obj  /out:cmTC_7bfc1.exe /implib:cmTC_7bfc1.lib /pdb:cmTC_7bfc1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~1\MICROS~4\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_7bfc1.dir\CheckFunctionExists.c.obj /out:cmTC_7bfc1.exe /implib:cmTC_7bfc1.lib /pdb:cmTC_7bfc1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_7bfc1.dir/intermediate.manifest CMakeFiles\cmTC_7bfc1.dir/manifest.res" failed (exit code 1120) with the following output:
+CheckFunctionExists.c.obj : error LNK2019: symbole externe non résolu XParseGeometry référencé dans la fonction main
+cmTC_7bfc1.exe : fatal error LNK1120: 1 externes non résolus
+ninja: build stopped: subcommand failed.
+
+
+

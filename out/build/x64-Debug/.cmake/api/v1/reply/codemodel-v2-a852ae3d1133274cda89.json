@@ -1,0 +1,166 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/glew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.glew-Debug-955fd8b67155b4077b78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "extern/glew",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/freeglut",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.freeglut-Debug-5b9f22c9b0fe892cc164.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "extern/freeglut",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "tools",
+					"jsonFile" : "directory-tools-Debug-510b7838458e622ae347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "openGL_CPE",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "freeglut",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "freeglut_static::@b21453d6b712ce8c9e06",
+					"jsonFile" : "target-freeglut_static-Debug-fcecf279d713c3f69c2d.json",
+					"name" : "freeglut_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "libglew_static::@06db6c4704c71a7d9aa4",
+					"jsonFile" : "target-libglew_static-Debug-85d4bc52be29d23a13f4.json",
+					"name" : "libglew_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "projet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projet-Debug-c472f9a61b892f89ee5b.json",
+					"name" : "projet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tools::@b9a00e55f22b3d77656c",
+					"jsonFile" : "target-tools-Debug-57f8fcda3d4906a521fa.json",
+					"name" : "tools",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/silia/Documents/projet_tsi/out/build/x64-Debug",
+		"source" : "C:/Users/silia/Documents/projet_tsi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

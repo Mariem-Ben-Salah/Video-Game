@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"extern/freeglut/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 608,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 629,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 634,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"extern/freeglut/lib/freeglut_staticd.lib"
+			],
+			"targetId" : "freeglut_static::@b21453d6b712ce8c9e06",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "include/GL",
+			"paths" : 
+			[
+				"extern/freeglut/include/GL/freeglut.h",
+				"extern/freeglut/include/GL/freeglut_ucall.h",
+				"extern/freeglut/include/GL/freeglut_ext.h",
+				"extern/freeglut/include/GL/freeglut_std.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"out/build/x64-Debug/freeglut.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/FreeGLUT",
+			"exportName" : "FreeGLUTTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "freeglut_static::@b21453d6b712ce8c9e06",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"extern/freeglut/CMakeFiles/Export/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Devel",
+			"destination" : "lib/cmake/FreeGLUT",
+			"paths" : 
+			[
+				"out/build/x64-Debug/extern/freeglut/FreeGLUT/FreeGLUTConfig.cmake",
+				"out/build/x64-Debug/extern/freeglut/FreeGLUT/FreeGLUTConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "extern/freeglut",
+		"source" : "extern/freeglut"
+	}
+}
