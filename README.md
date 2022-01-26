@@ -19,6 +19,7 @@
 This game is about a snowman discovering his environment while skateboarding.
 there are hidden objects in the forest that the snowman should find without facing the monsters.
 The movement of the snowman is managed with the keyboards A, E, Q, D.
+
 You can find the code in the master branch.
 
 ### Forking this project
