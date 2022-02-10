@@ -3,9 +3,11 @@
 <p align="center">
 
   <h1 align="center">Snow Surfer</h3>
-  <p align="center>
+  
+  <p align="center">
    <img src="https://i.ibb.co/dQLtq1z/Sans-titre.png"/>
   </p>
+  
   <p align="center">
     <br />
     <br />
