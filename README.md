@@ -2,7 +2,7 @@
 <br />
 <p align="center">
 
-  <h1 align="center">Game of life</h3>
+  <h1 align="center">Snow Surfer</h3>
   <img src="https://i.ibb.co/dQLtq1z/Sans-titre.png">
   
   <p align="center">
